@@ -1,0 +1,30 @@
+/* 
+   작성일 : 2023. 11. 29
+   작성자 : 윤서은
+   프로그램 설명 : HTML, CSS, Jacascript 간단하게 사용해보기
+                   글자를 클릭했을 때 색이 변하는 프로그램램
+*/
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    h1 {
+      color : skyblue;
+    }
+    </style>
+</head>
+<body>
+  <h1>하이하이 화이팅</h1>
+
+  <script>
+    const tag = document.querySelector("h1");
+    tag.addEventListener("click", () => {
+      tag.style.color = "pink";
+    });
+  </script>
+</body>
+</html>
