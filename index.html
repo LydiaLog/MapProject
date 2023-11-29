@@ -1,30 +1,63 @@
-/* 
+<!-- /* 
    작성일 : 2023. 11. 29
    작성자 : 윤서은
-   프로그램 설명 : HTML, CSS, Jacascript 간단하게 사용해보기
-                  글자를 클릭했을 때 색이 변하는 프로그램
-*/
+   프로그램 설명 : HTML, CSS, Jacascript 자주 쓰는 문법들 라이브 서버로 테스트
+*/ -->
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <style>
-    h1 {
-      color : skyblue;
-    }
-    </style>
+<html lang="en"> 
+<head> 
+  <meta charset="UTF-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name = "author" content = "Lydia" />
+  <meta name = "description" content="떠니의 맛집지도" />
+  <meta
+    name = "keywords"
+    content = "맛집 지도, 떠니의 맛집, 내돈내산, 냠냠박사"
+    />
+  <title>떠니의 맛집지도</title>
 </head>
-<body>
+<body> 
   <h1>하이하이 화이팅</h1>
 
+  <!-- div  --> 
+  <div>안녕하세요 div</div>
+  <div>안녕하세요 div</div>
+
+  <!-- span --> 
+  <span>span test</span>
+  <span>span test</span>
+
+  <div>안녕하세요. <span style = "color : skyblue"> 떠니 </span>입니다.</div>
+  <!-- ul, ol -->
+  <ul>
+    <li> 1 </li>
+    <li> 2 </li>
+    <li> 3 </li>
+  </ul>
+
+  <ol>
+    <li> 1 </li>
+    <li> 2 </li>
+    <li> 3 </li>
+  </ol>
+
+  <!-- h1 ~ h6 -->
+  <h6> hi</h6>
+
+  <!-- img -->
+  <img src = "./FiveGuys.jpg" alt = "FiveGuys"/>
+
+  <!-- input -->
+  <input type = "checkbox"/>
+
+  <!-- button -->
+  <button> Click </button>
+
+  <!-- a -->
+  <a href="https://www.naver.com/">Naver</a>
+  
   <script>
-    const tag = document.querySelector("h1");
-    tag.addEventListener("click", () => {
-      tag.style.color = "pink";
-    });
   </script>
 </body>
 </html>
